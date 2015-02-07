@@ -1,6 +1,7 @@
 package com.StrapleGroup.instassistant.ui;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
@@ -100,10 +101,12 @@ public class LoginActivity extends ActionBarActivity implements View.OnClickList
                     @Override
                     protected void onPostExecute(Void aVoid) {
                         super.onPostExecute(aVoid);
+                        startActivity(new Intent(context, ProfileActivity.class));
                     }
                 }.execute(null, null, null);
                 loginView.setEnabled(false);
                 loginView.setAlpha(0);
+
                 return true;
             }
             return false;

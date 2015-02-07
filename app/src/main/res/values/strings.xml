@@ -7,5 +7,6 @@
     <string name="title_activity_login">LoginActivity</string>
     <string name="instagram_client_id">93b9983363514f448c0cd3a86e690cf1</string>
     <string name="instagram_secret">e217f1dac0a546ac88955813c4237a8d</string>
+    <string name="title_activity_profile">ProfileActivity</string>
 
 </resources>
