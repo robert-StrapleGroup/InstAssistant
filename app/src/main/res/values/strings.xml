@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">InstAssistant</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="instagram_client_id">93b9983363514f448c0cd3a86e690cf1</string>
+    <string name="instagram_secret">e217f1dac0a546ac88955813c4237a8d</string>
+
+</resources>
