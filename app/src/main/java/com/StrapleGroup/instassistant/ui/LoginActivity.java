@@ -13,7 +13,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.StrapleGroup.instassistant.InstagramInstance;
-import com.StrapleGroup.robert.instassistant.R;
+import com.StrapleGroup.instassistant.R;
 
 import org.jinstagram.auth.InstagramAuthService;
 import org.jinstagram.auth.model.Token;
